@@ -1,5 +1,7 @@
-import { LoginPage } from "./components/LoginPage"
+// import { LoginPage } from "./components/LoginPage"
 // import { ObjectLitera ls } from "./typescript"
+
+import { UsersPage } from "./components/UsersPage"
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
       <main>
         {/* <BasicTypes /> */}
         {/* <ObjectLiterals /> */}
-        <LoginPage />
+        {/* <LoginPage /> */}
+        <UsersPage />
       </main>
     </>
   )
